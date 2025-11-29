@@ -1,9 +1,74 @@
 ---
 layout: page
 title: "Lame – HackTheBox"
+categories: [HackTheBox, Linux, Easy]
 ---
 
-# Lame – HackTheBox
 
-Probando contenido.  
-Si ves este texto, ya funciona.
+# Lame
+
+Scan: 
+
+![](/Lame/Lame (10).png)
+
+Puertos:
+
+- 21 FTP
+- 22 SSH
+- 139
+- 445 SMB
+
+Sabiendo que estamos contra SMB ejecutamos Enun4linux
+
+```jsx
+enum4linux -a 10.129.6.222
+```
+
+Este nos da información super importante de esta maquina las cuales son: Usuarios,Grupos,Versiones,Compartidos,Dominios etc..
+
+![](/Lame/Lame (1).png)
+
+![](/Lame/Lame (2).png)
+
+![](/Lame/Lame (3).png)
+
+## Dentro de tmp no habia nada importante ya que no iba por ahi.
+
+![](/Lame/Lame (4).png)
+
+# Explotación
+
+Buscamos  —> How to exploit Samba 3.0.20
+
+Encontre el siguiente exploit (**Samba "username map script" Command Execution CVE-2007-2447)**
+
+<aside>
+💡
+
+This module exploits a command execution vulnerability in Samba
+versions 3.0.20 through 3.0.25rc3 when using the non-default
+"username map script" configuration option. By specifying a username
+containing shell meta characters, attackers can execute arbitrary
+commands.
+
+</aside>
+
+Sabiendo esto abrimos MsfConsole buscando asi el exploit para samba < 3.0.2
+
+![](/Lame/Lame (5).png)
+
+Ejecutamos:
+
+![](/Lame/Lame (6).png)
+
+Configuramos las opciones de este exploit:
+
+![](/Lame/Lame (7).png)
+
+### Confirmamos con Ip -a que estamos dentro de la maquina:
+
+![](/Lame/Lame (8).png)
+
+Obtenemos las flags:
+
+![](/Lame/Lame (9).png)
