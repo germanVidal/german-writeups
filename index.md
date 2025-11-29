@@ -1,3 +1,9 @@
+---
+layout: home
+title: "German.Vidal – Portafolio de Ciberseguridad"
+---
+
+
 # 👋 Sobre mí
 
 Mi nombre es **Germán Vidal**.  
