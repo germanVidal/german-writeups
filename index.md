@@ -1,13 +1,13 @@
 # 👋 Sobre mí
 
-Mi nombre es **Germán Vidal (VidAppSec)**.  
+Mi nombre es **Germán Vidal**.  
 Soy técnico de infraestructura que trabaja en entornos críticos de Centro de Datos (CPD) y, en paralelo, me estoy formando activamente en ciberseguridad ofensiva con el objetivo de convertirme en **Pentester Junior** o **Analista SOC L1**.
 
 ---
 
 ## 🎓 Formación y estudios
 
-- **Analista en Infraestructura y Ciberseguridad** – ORT Uruguay (en curso)  
+- **Analista en Infraestructura y Ciberseguridad** – Unión Informatica (en curso)  
 - **Hacking Ético y Gestión de Incidentes** – ORT Uruguay  
 - **Desarrollador Web** – UTU (título técnico obtenido)  
 
@@ -23,7 +23,7 @@ Actualmente trabajo en **UTE / SONDA Uruguay**, brindando soporte técnico en un
 - Registro técnico de eventos relevantes (UPS, generadores, aire acondicionado industrial, sistemas de energía, etc.)  
 - Documentación de maniobras, tareas y mantenimientos  
 
-Esta experiencia me dio una base sólida en **operación de infraestructura crítica**, protocolos de trabajo, procedimientos, y manejo de incidentes reales — todo muy útil para la ciberseguridad.
+Esta experiencia me dio una base sólida en **operación de infraestructura crítica**, protocolos de trabajo, procedimientos, y manejo de incidentes reales.
 
 ---
 
