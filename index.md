@@ -1,10 +1,9 @@
 ---
 layout: home
-title: "German.Vidal – Portafolio de Ciberseguridad"
+title: ""
 ---
 
-
-# 👋 Sobre mí
+## 👋 Sobre mí
 
 Mi nombre es **Germán Vidal**.  
 Soy técnico de infraestructura que trabaja en entornos críticos de Centro de Datos (CPD) y, en paralelo, me estoy formando activamente en ciberseguridad ofensiva con el objetivo de convertirme en **Pentester Junior** o **Analista SOC L1**.
