@@ -26,15 +26,15 @@ enum4linux -a 10.129.6.222
 
 Este nos da información super importante de esta maquina las cuales son: Usuarios,Grupos,Versiones,Compartidos,Dominios etc..
 
-![](/Lame/Lame (1).png)
+![](../Lame/Lame (1).png)
 
-![](/Lame/Lame (2).png)
+![](../Lame/Lame (2).png)
 
-![](/Lame/Lame (3).png)
+![](../Lame/Lame (3).png)
 
 ## Dentro de tmp no habia nada importante ya que no iba por ahi.
 
-![](/Lame/Lame (4).png)
+![](../Lame/Lame (4).png)
 
 # Explotación
 
@@ -55,19 +55,19 @@ commands.
 
 Sabiendo esto abrimos MsfConsole buscando asi el exploit para samba < 3.0.2
 
-![](/Lame/Lame (5).png)
+![](../Lame/Lame (5).png)
 
 Ejecutamos:
 
-![](/Lame/Lame (6).png)
+![](../Lame/Lame (6).png)
 
 Configuramos las opciones de este exploit:
 
-![](/Lame/Lame (7).png)
+![](../Lame/Lame (7).png)
 
 ### Confirmamos con Ip -a que estamos dentro de la maquina:
 
-![](/Lame/Lame (8).png)
+![](../Lame/Lame (8).png)
 
 Obtenemos las flags:
 
